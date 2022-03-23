@@ -1,0 +1,42 @@
+.briefcase{
+    display: flex;
+    flex-direction: column;
+}
+.briefcase-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+    margin-top: 70px;
+}
+.briefcase-description{
+    padding: 20px;
+    font-weight: 400;
+}
+.briefcase-proyects{
+    margin: 0 auto;
+}
+.proyects{
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    margin: 50px 0;
+    box-shadow: 4px 4px 4px var(--secundary-color);
+    padding: 20px;
+}
+@media (min-width: 950px){
+    .briefcase-title{
+        font-size: 50px;
+        margin: 35px;
+        margin-top: 70px;
+    }
+    .briefcase-description{
+        font-size: 20px;
+    }
+    .briefcase-proyects{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
