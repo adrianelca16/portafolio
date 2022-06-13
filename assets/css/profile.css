@@ -7,7 +7,8 @@
 .profile-img{
     width: 80%;
     max-width: 300px;
-    box-shadow: 0 15PX 0 var(--primary-color);
+    box-shadow: 5px 10PX 10px var(--primary-color);
+    border-radius: 50%;
 }
 .profile{
     text-align: center;

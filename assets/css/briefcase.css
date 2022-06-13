@@ -36,7 +36,43 @@
     }
     .briefcase-proyects{
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         gap: 30px;
+    }
+    .proyects{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        height: 600px;
+
+    }
+    .briefcase-img{
+        width: 300px;
+        border: 2px solid #000;
+        border-radius: 5px;
+    }
+    .briefcase-subtitle{
+        font-weight: 800;
+        font-size: 40px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .briefcase-description{
+        font-size: 20px;
+    }
+    .briefcase-link{
+        padding: 10px 20px;
+        background-color: var(--secundary-color);
+        color: #fff;
+        width: 30%;
+        border-radius: 5px;
+    }
+    .briefcase-link:hover{
+        background-color: var(--primary-color);
+        transition: 0.7s;
+        cursor: pointer;
     }
 }
